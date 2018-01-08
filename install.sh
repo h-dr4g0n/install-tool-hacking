@@ -16,3 +16,6 @@ sudo chmod +x /usr/local/bin/apktool
 sudo apt-get install lib32stdc++6 lib32ncurses5 lib32z1
 Y
 git clone https://gist.github.com/a62d106b55562cc1ab88.git
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+unzip ngrok-stable-linux-amd64.zip
+mv a62d106b55562cc1ab88 backdoor-apk
